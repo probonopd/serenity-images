@@ -7,6 +7,10 @@ sudo apt install build-essential cmake curl libmpfr-dev libmpc-dev libgmp-dev e2
 
 sudo apt install gcc-12 g++-12
 
+git clone --depth 1 https://github.com/SerenityOS/serenity
+
+cd serenity/
+
 # build the toolchain
 Meta/serenity.sh rebuild-toolchain
 
