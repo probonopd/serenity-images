@@ -19,9 +19,14 @@ Meta/serenity.sh rebuild-toolchain
 # Build SerenityOS image
 Meta/serenity.sh image
 
+# https://github.com/SerenityOS/serenity/blob/master/Documentation/AdvancedBuildInstructions.md#ninja-build-targets
+cd Build/x86_64
 # https://github.com/SerenityOS/serenity/blob/master/Documentation/BareMetalInstallation.md
 ninja grub-image
 
 ls -lh
 
 find ~ -name grub_disk_image || true
+
+tar cfvj grub_disk_image.tar.bz2 grub_disk_image || true
+ls -lh *.tar.bz2 || true
