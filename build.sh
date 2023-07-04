@@ -5,7 +5,7 @@
 
 # TODO: Port more from https://github.com/SerenityOS/serenity/blob/master/Meta/Azure/Serenity.yml if needed
 
-sudo apt install build-essential cmake curl libmpfr-dev libmpc-dev libgmp-dev e2fsprogs ninja-build qemu-system-gui qemu-system-x86 qemu-utils ccache rsync unzip texinfo libssl-dev
+sudo apt install build-essential cmake curl libmpfr-dev libmpc-dev libgmp-dev e2fsprogs ninja-build qemu-utils ccache rsync unzip texinfo libssl-dev grub2 parted
 
 sudo apt install gcc-12 g++-12
 
