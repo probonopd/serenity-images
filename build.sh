@@ -19,4 +19,9 @@ Meta/serenity.sh rebuild-toolchain
 # Build SerenityOS image
 Meta/serenity.sh image
 
+# https://github.com/SerenityOS/serenity/blob/master/Documentation/BareMetalInstallation.md
+ninja grub-image
+
 ls -lh
+
+find ~ -name grub_disk_image || true
