@@ -25,7 +25,6 @@ cd Build/x86_64
 ninja grub-image
 
 ls -lh
-
 find ~ -name grub_disk_image || true
 
 tar cfvj grub_disk_image.tar.bz2 grub_disk_image || true
