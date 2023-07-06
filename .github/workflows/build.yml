@@ -29,8 +29,8 @@ jobs:
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: date +%Y%m%d
+          automatic_release_tag: monthly
           prerelease: false
-          title: "Latest Build"
+          title: "Monthly Build"
           files: |
             ./serenity/Build/x86_64/grub_disk_image.tar.bz2
