@@ -2,4 +2,6 @@
 
 # SerenityOS images
 
-The missing downloadable images of [SerenityOS](https://serenityos.org/)
+The missing images of [SerenityOS](https://serenityos.org/), available for download on [GitHub Releases](../../releases).
+
+See https://github.com/SerenityOS/serenity/blob/master/Documentation/VirtualBox.md#creating-the-virtual-machine for how to run them.
